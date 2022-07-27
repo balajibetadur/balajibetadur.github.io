@@ -18,16 +18,16 @@ import './NavBar.css'
 function NavBar() {
 
   const [showNavBar, setShowNavBar] = useState(false)
+  const [width, setWidth] = useState(window.innerWidth);
 
   function toggleMenu() {
     setShowNavBar(!showNavBar)
   }
 
-
-  const [width, setWidth] = useState(window.innerWidth);
   const updateDimensions = () => {
     setWidth(window.innerWidth);
-  }
+	}
+	
   useEffect(() => {
     window.addEventListener("resize", updateDimensions);
     return () => window.removeEventListener("resize", updateDimensions);

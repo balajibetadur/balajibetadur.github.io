@@ -1,37 +1,35 @@
-
-.home__container{
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 260px;
-    padding-left: 3vmax;
-    padding-right: 3vmax;
-    padding-top: 50px;
+.home__container {
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 260px;
+	padding-left: 3vmax;
+	padding-right: 3vmax;
+	padding-top: 50px;
 }
 
-.blob{
-    height: 22vmax;
-    width: 100%;
-    fill: var(--hue);
-    padding-top: 30px;
+.blob {
+	height: 22vmax;
+	width: 100%;
+	fill: var(--hue);
+	padding-top: 30px;
 }
 
-.blob__img{
-    width: 90%;
-    height: auto;
+.blob__img {
+	width: 90%;
+	height: auto;
 }
 
-.home__wish{
-    font-size: 3rem !important;
+.home__wish {
+	font-size: 3rem !important;
 }
 
-.home__user__description{
-    font-size: 20px;
-    width: 100%;
+.home__user__description {
+	font-size: 20px;
+	width: 100%;
 }
-
 
 /* .wl{
     object-fit: cover;
@@ -43,179 +41,168 @@
     top: -150px;
 } */
 
-
-.home__user__profile{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.home__user__profile {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
 
-.home__social__media{
-    padding-top: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.home__social__media {
+	padding-top: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.home__social__media__icon{
-    /* transform: scale(1.2); */
-    padding: 13px 0;
+.home__social__media__icon {
+	/* transform: scale(1.2); */
+	padding: 13px 0;
 }
 
-.home__social__media__line{
-    height: 30px;
-    width: 1px;
-    opacity: 0.4;
-    background-color: white;
-    margin-top: 10px;
+.home__social__media__line {
+	height: 30px;
+	width: 1px;
+	opacity: 0.4;
+	background-color: white;
+	margin-top: 10px;
 }
 
-.home__wish__text{
-    font-size: 2.4rem;
-    font-weight: 1200;
-    margin: 60px 0 0 0;
+.home__wish__text {
+	font-size: 2.4rem;
+	font-weight: 1200;
+	margin: 60px 0 0 0;
 }
 
-
-.home__description1{
-    font-size: 1.3rem;
-    color: rgba(255, 255, 255, 0.637);
-    padding: 0 0 20px 0;
+.home__description1 {
+	font-size: 1.3rem;
+	color: rgba(255, 255, 255, 0.637);
+	padding: 0 0 20px 0;
 }
 
-.home__description2{
-    
-  font-size: 15px;
-  font-weight: 300;
+.home__description2 {
+	font-size: 15px;
+	font-weight: 300;
 }
 
-.home__catch__phrase{
-    font-style: italic;
-    padding: 10px 0;
-    font-size: 15px;
-    font-weight: 300;
+.home__catch__phrase {
+	font-style: italic;
+	padding: 10px 0;
+	font-size: 15px;
+	font-weight: 300;
 }
 
-.highlight{
-    color: white;
-    padding: 5px;
-    font-size: 1.4rem;
+.highlight {
+	color: white;
+	padding: 5px;
+	font-size: 1.4rem;
 }
 
-
-.home__resume{
-    z-index: 999;
+.home__resume {
+	z-index: 999;
 }
 
-.home__view__resume{
-    display: flex;
-    align-items: center;
-    background-color: var(--hue);
-    padding: 10px 15px 10px 20px;
-    border-radius: 5px;
-    border: none;
-    font-size: 1rem;
-    justify-content: space-between;
-    transition: 0.2s;
+.home__view__resume {
+	display: flex;
+	align-items: center;
+	background-color: var(--hue);
+	padding: 10px 15px 10px 20px;
+	border-radius: 5px;
+	border: none;
+	font-size: 1rem;
+	justify-content: space-between;
+	transition: 0.2s;
 }
 
-
-.home__view__resume:hover{
-    cursor: pointer;
-    transform:none;    
-    transition: 0;
-    opacity: 1;
+.home__view__resume:hover {
+	cursor: pointer;
+	transform: none;
+	transition: 0;
+	opacity: 1;
 }
 
-.home__resume{
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
+.home__resume {
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
 }
 
-.home__resume__icon{
-    padding-left: 10px;
-    /* font-size: 1px; */
-    width: 10px;
-    height: 10px;
+.home__resume__icon {
+	padding-left: 10px;
+	/* font-size: 1px; */
+	width: 10px;
+	height: 10px;
 }
 
 @media only screen and (min-width: 1000px) {
+	.home__social__media__icon:hover {
+		background-color: var(--primary-hover-color);
+		border-radius: 50%;
+		transition: 0.5s;
+	}
+	.home__view__resume:hover {
+		transition: 0.5s;
+		cursor: pointer;
+		transform: translateY(-5px);
+		opacity: 0.9;
+	}
 
-    .home__social__media__icon:hover{
-        background-color: var(--primary-hover-color);
-        border-radius: 50%;
-        transition: 0.5s;
-    }
-    .home__view__resume:hover{
-        transition: 0.5s;
-        cursor: pointer;
-        transform:translateY(-5px);    
-        opacity: 0.9;
-    }
-    
+	.home__container {
+		flex-direction: row;
+		justify-content: space-around;
+		width: 60%;
+		height: 50vh;
+		padding-top: 150px;
+	}
 
-    .home__container{
-        flex-direction: row;
-        justify-content: space-around;
-        width: 60%;
-        height: 50vh;
-        padding-top: 150px;
-    }
+	.home__profile__image {
+		position: absolute;
+		right: 10vmax;
+		top: 10vmax;
+	}
 
-    .home__profile__image{
-        position: absolute;
-        right: 10vmax;
-        top: 10vmax;
-    }
+	.blob {
+		height: 20vmax;
+	}
 
-    .blob{
-        height: 20vmax;
-    }
+	.home__user__profile {
+		width: 20%;
+	}
 
-    .home__user__profile{
-        width: 20%;
-    }
+	.home__wish__text {
+		font-size: 2.5rem;
+		font-weight: 500;
+	}
 
-    .home__wish__text{
-        font-size: 2.5rem;
-        font-weight: 500;
-    }
+	.highlight {
+		font-weight: 500;
+		color: white;
+		font-size: 1.8rem;
+	}
+	.home__description1 {
+		font-size: 1.8rem;
+	}
+	.home__catch__phrase,
+	.home__description2 {
+		font-size: 1.2rem;
+	}
 
-    .highlight{
-        font-weight: 500;
-        color: white;
-        font-size: 1.8rem;
-    }
-    .home__description1{
-        font-size: 1.8rem;
-    }
-    .home__catch__phrase,
-    .home__description2{
-        font-size: 1.2rem;
-    }
+	.home__view__resume {
+		font-size: 1.2rem;
+		padding: 15px 15px 15px 20px;
+	}
 
+	.home__social__media__line {
+		height: 70px;
+	}
 
-    .home__view__resume{
-        font-size: 1.2rem;
-        padding: 15px 15px 15px 20px;
-    }
+	.home__social__media__icon {
+		padding: 10px;
+		margin: 5px;
+		transition: 0.4s;
+	}
 
-    .home__social__media__line{
-        height: 70px;
-    }
-
-    .home__social__media__icon{
-        padding: 10px;
-        margin: 5px;
-        transition: 0.4s;
-    }
-
-    .home__resume__icon{
-    transform: scale(1.2);
-
-    }
-
-
+	.home__resume__icon {
+		transform: scale(1.2);
+	}
 }
