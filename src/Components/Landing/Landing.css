@@ -1,5 +1,5 @@
 .home__container {
-	height: 70vh;
+	height: 35vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -7,7 +7,7 @@
 	margin-bottom: 260px;
 	padding-left: 3vmax;
 	padding-right: 3vmax;
-	padding-top: 50px;
+	padding-top: 190px;
 }
 
 .blob {
@@ -69,15 +69,15 @@
 }
 
 .home__wish__text {
-	font-size: 2.4rem;
+	font-size: 2rem;
 	font-weight: 1200;
-	margin: 60px 0 0 0;
+	margin: 30px 0 0 0;
 }
 
 .home__description1 {
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	color: rgba(255, 255, 255, 0.637);
-	padding: 0 0 20px 0;
+	padding: 0 0 30px 0;
 }
 
 .home__description2 {
@@ -95,7 +95,6 @@
 .highlight {
 	color: white;
 	padding: 5px;
-	font-size: 1.4rem;
 }
 
 .home__resume {
@@ -106,7 +105,7 @@
 	display: flex;
 	align-items: center;
 	background-color: var(--hue);
-	padding: 10px 15px 10px 20px;
+	padding: 15px 15px 15px 20px;
 	border-radius: 5px;
 	border: none;
 	font-size: 1rem;
@@ -151,8 +150,8 @@
 		flex-direction: row;
 		justify-content: space-around;
 		width: 60%;
-		height: 50vh;
-		padding-top: 150px;
+		height: 30vh;
+		padding-top: 210px;
 	}
 
 	.home__profile__image {
@@ -172,6 +171,7 @@
 	.home__wish__text {
 		font-size: 2.5rem;
 		font-weight: 500;
+		margin-top: 60px;
 	}
 
 	.highlight {
@@ -181,6 +181,7 @@
 	}
 	.home__description1 {
 		font-size: 1.8rem;
+		padding: 0;
 	}
 	.home__catch__phrase,
 	.home__description2 {

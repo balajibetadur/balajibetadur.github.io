@@ -13,7 +13,7 @@ import Fade from "react-reveal/Fade";
 function Landing() {
 	return (
 		<Fade duration={3000}>
-			<div className="home container">
+			<div className="home">
 				{/* <img src={wl} className="wl"/> */}
 				<div className="home__container">
 					<div className="home__user__profile">
@@ -25,12 +25,12 @@ function Landing() {
 								<div className="home__social__media__line"></div>
 							</div>
 						</Fade>
-						<div className="testing">
-							<p>hi</p>
-						</div>
 
 						<div className="home__profile__image">
-							<svg className="blob" viewBox="0 0 200 187">
+							<svg
+								className="blob"
+								viewBox="0 0 200 187"
+							>
 								<mask
 									className="mask"
 									id="mask0"
@@ -63,27 +63,45 @@ function Landing() {
 					<div className="home__user__description">
 						<Fade delay={500}>
 							<p className="home__wish__text">
-								Hi, I'm {User.firstName}.
+								Hi, I'm{" "}
+								{User.firstName}
+								.
 							</p>
 						</Fade>
 						<Fade delay={700}>
 							<p className="home__description1">
-								I build value through{" "}
-								<span className="highlight">Data Science</span>,{" "}
+								I build value
+								through{" "}
 								<span className="highlight">
-									Machine Learning
+									Data
+									Science
+								</span>
+								,{" "}
+								<span className="highlight">
+									Machine
+									Learning
 								</span>{" "}
-								and <span className="highlight">Frontend</span>.
+								and{" "}
+								<span className="highlight">
+									Frontend
+								</span>
+								.
 							</p>
 						</Fade>
 						<Fade delay={900}>
 							<p className="home__description2">
-								{LandingPageContent.description2}
+								{
+									LandingPageContent.description2
+								}
 							</p>
 						</Fade>
 						<Fade delay={1100}>
 							<p className="home__catch__phrase">
-								`{LandingPageContent.catchPhrase}`
+								`
+								{
+									LandingPageContent.catchPhrase
+								}
+								`
 							</p>
 						</Fade>
 						<Fade delay={1300}>
@@ -91,7 +109,10 @@ function Landing() {
 								<p className="home__view__resume">
 									Resume{" "}
 									<SendRoundedIcon
-										style={{ height: "18px" }}
+										style={{
+											height:
+												"18px",
+										}}
 										className="home__resume__icon"
 									/>
 								</p>

@@ -1,73 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
 
-
-:root{
-  --hue: rgb(107, 36, 214);
-  --primary-color: rgb(43, 41, 47);
-  --primary-text-color: white;
-  --primary-font-size-mobile: 3.5vmax; 
-  --primary-font-weight-mobile: 1vmax;
-  --primary-hover-color: rgba(83, 83, 83, 0.47);
-  
+:root {
+	--hue: rgb(107, 36, 214);
+	--primary-color: rgb(43, 41, 47);
+	--primary-text-color: white;
+	--primary-font-size-mobile: 3.5vmax;
+	--primary-font-weight-mobile: 1vmax;
+	--primary-hover-color: rgba(83, 83, 83, 0.47);
+	--primary-font-size: 1.4vmax;
+	--primary-header-font-size-mobile: 3vmax;
+	--secondary-header-font-size-mobile: 2.5vmax;
 }
-
 
 body {
-  margin:0;
-  padding: 0;
-  background-color: var(--primary-color);
-  color: var(--primary-text-color);
-  font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: var(--primary-color);
+	color: var(--primary-text-color);
+	font-family: "Montserrat", sans-serif;
 }
-
 
 *::-webkit-scrollbar {
-  width: 8px;               /* width of the entire scrollbar */
+	width: 8px; /* width of the entire scrollbar */
 }
 
-
 *::-webkit-scrollbar-track {
-background: rgba(0, 0, 0, 0.1);        /* color of the tracking area */
+	background: rgba(0, 0, 0, 0.1); /* color of the tracking area */
 }
 
 *::-webkit-scrollbar-thumb {
-background-color: rgba(120, 120, 120, 0.526);    /* color of the scroll thumb */
-border-radius: 10px;       /* roundness of the scroll thumb */
-border: none;  /* creates padding around scroll thumb */
+	background-color: rgba(
+		120,
+		120,
+		120,
+		0.526
+	); /* color of the scroll thumb */
+	border-radius: 10px; /* roundness of the scroll thumb */
+	border: none; /* creates padding around scroll thumb */
 }
 
-*::-webkit-scrollbar-thumb:hover{
-background-color: rgba(82, 82, 82, 0.875);
+*::-webkit-scrollbar-thumb:hover {
+	background-color: rgba(82, 82, 82, 0.875);
 }
 
-.icon:hover{
-  cursor: pointer;
+.icon:hover {
+	cursor: pointer;
 }
 
-.link{
-  text-decoration: none !important;
-  color: inherit;
+.link {
+	text-decoration: none !important;
+	color: inherit;
 }
-
 
 @keyframes fadeInUp {
-  from {
-      transform: translate3d(0,-40px,0)
-  }
+	from {
+		transform: translate3d(0, -40px, 0);
+	}
 
-  to {
-      transform: translate3d(0,0,0);
-      opacity: 1
-  }
+	to {
+		transform: translate3d(0, 0, 0);
+		opacity: 1;
+	}
 }
 
-.fadeInUp{
-  animation-name: fadeInUp;
-  transition: 0.5s;
+.fadeInUp {
+	animation-name: fadeInUp;
+	transition: 0.5s;
 }
 
-@media only screen and (min-width: 1000px){
-  .icon{
-    transform: scale(1.2);
-  }
+@media only screen and (min-width: 1000px) {
+	.icon {
+		transform: scale(1.2);
+	}
+}
+
+.scrollToTopIcon {
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 10px;
+	border-radius: 50%;
 }

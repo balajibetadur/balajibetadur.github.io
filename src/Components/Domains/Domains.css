@@ -1,0 +1,9 @@
+.domains__header {
+	width: 100%;
+	text-align: center;
+}
+
+.domains__header__text {
+	font-size: var(--primary-header-font-size-mobile);
+	font-weight: 300;
+}

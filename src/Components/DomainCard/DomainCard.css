@@ -1,0 +1,77 @@
+.domaincard {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.domaincard__title {
+	width: 100%;
+	text-align: center;
+	font-size: var(--secondary-header-font-size-mobile);
+	font-weight: 300;
+}
+
+.domaincard__image {
+	height: 170px;
+	width: auto;
+	margin: 20px 30px;
+}
+
+.domaincard__description {
+	margin: 20px;
+}
+
+.domaincard__body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.domaincard__skill {
+	height: 55px;
+	width: auto;
+	margin: 10px;
+}
+
+.domaincard__skills {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.domaincard__skillcard {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.domaincard__skill__label {
+	padding: 0;
+	margin: 0;
+}
+
+@media only screen and (min-width: 1000px) {
+	.domaincard__body {
+		flex-direction: row;
+	}
+
+	.domaincard__image {
+		width: 30vmax;
+		height: 100%;
+		margin: 100px;
+	}
+
+	.domaincard__section2 {
+		margin: 10px 30px;
+		font-weight: 300;
+		/* width: 40%; */
+	}
+
+	.domaincard__description > p {
+		font-size: var(--primary-font-size);
+		margin: 30px 50px 30px 10px;
+	}
+}
