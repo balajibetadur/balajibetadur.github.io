@@ -25,7 +25,7 @@
 	margin-bottom: -7px;
 	/*Fix for safari gap*/
 	/* margin-top: 75vh; */
-	z-index: -100;
+	/* z-index: -100; */
 }
 
 /* Animation */
@@ -60,7 +60,7 @@
 /*Shrinking for mobile*/
 @media (min-width: 1100px) {
 	.wavesImg {
-		height: 40px;
+		height: 60px;
 		min-height: 40px;
 	}
 	.content {

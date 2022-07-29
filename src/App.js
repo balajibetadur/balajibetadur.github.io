@@ -7,6 +7,7 @@ import NavBar from "./Components/NavBar/NavBar";
 import Footer from "./Components/Footer/Footer";
 import ScrollToTop from "react-scroll-up";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
+import Education from "./Pages/Education/Education";
 // import "bootstrap/dist/css/bootstrap.min.css";
 // import "bootstrap/dist/js/bootstrap.bundle.min";
 
@@ -28,6 +29,10 @@ function App() {
 								}
 							/>
 						}
+					/>
+					<Route
+						path="/education"
+						element={<Education />}
 					/>
 					<Route
 						path="/experience"

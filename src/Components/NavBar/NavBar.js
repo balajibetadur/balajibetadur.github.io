@@ -47,7 +47,7 @@ function NavBar({ aboutRef }) {
 	if (width < 1100) {
 		style = {
 			transition: "all 0.5s",
-			height: `${showNavBar ? "300px" : "0px"}`,
+			height: `${showNavBar ? "200px" : "0px"}`,
 		};
 	}
 
@@ -107,22 +107,7 @@ function NavBar({ aboutRef }) {
 									Education
 								</span>
 							</NavLink>
-							<NavLink
-								className="link"
-								to="/research"
-							>
-								<span
-									onClick={() =>
-										setShowNavBar(
-											false,
-										)
-									}
-									className="navbar__option option__research"
-								>
-									<PolicyRoundedIcon className="navbar__option__icon icon" />
-									Research
-								</span>
-							</NavLink>
+
 							<NavLink
 								className="link"
 								to="/experience"
@@ -155,22 +140,7 @@ function NavBar({ aboutRef }) {
 									Projects
 								</span>
 							</NavLink>
-							<NavLink
-								className="link"
-								to="/certifications"
-							>
-								<span
-									onClick={() =>
-										setShowNavBar(
-											false,
-										)
-									}
-									className="navbar__option option__certifications"
-								>
-									<CardMembershipRoundedIcon className="navbar__option__icon icon" />
-									Certifications
-								</span>
-							</NavLink>
+
 							<NavLink
 								className="link"
 								to="/achievements"

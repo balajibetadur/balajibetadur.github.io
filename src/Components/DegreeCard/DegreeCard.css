@@ -1,0 +1,87 @@
+.degreecard {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 30px;
+	margin: 20px;
+	border-radius: 10px;
+	background-color: rgba(17, 17, 17, 0.33);
+}
+
+.degreecard__image {
+	height: 130px;
+	margin-bottom: 30px;
+}
+
+.degreecard__section2 {
+	text-align: center;
+}
+
+.degreecard__university__detais {
+	margin-bottom: 40px;
+}
+
+.degreecard__university__name {
+	font-size: var(--secondary-header-font-size-mobile);
+	margin: 10px 0;
+}
+
+.degreecard__university__duration {
+	opacity: 0.5;
+	margin: 0;
+}
+
+.degreecard__degree__name {
+	font-size: var(--secondary-header-font-size-mobile);
+	margin: 10px 0;
+}
+
+.degreecard__degree__cgpa {
+	font-size: var(--secondary-header-font-size-mobile);
+	font-weight: 900;
+	margin: 0;
+	margin-top: 30px;
+	padding: 10px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+
+@media only screen and (min-width: 1000px) {
+	.degreecard {
+		flex-direction: row;
+		width: 100%;
+		justify-content: space-around;
+	}
+
+	.degreecard__image {
+		height: 12vmax;
+		margin: 20px 30px 20px 20px;
+	}
+	.degreecard__section2 {
+		width: 80%;
+		text-align: left;
+	}
+	.degreecard__university__name {
+		margin: 0;
+	}
+	.degreecard__university__detais {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0;
+	}
+
+	.degreecard__university__name {
+		font-size: 2.2vmax;
+	}
+
+	.degreecard__degree__name {
+		font-size: 1.5vmax;
+	}
+
+	.degreecard__degree__cgpa {
+		font-size: 2vmax;
+		text-align: center;
+	}
+}

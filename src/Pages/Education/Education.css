@@ -1,0 +1,36 @@
+.education__degree {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.education__degree__title__text {
+	font-size: var(--primary-header-font-size-mobile);
+	margin-top: 50%;
+	margin-bottom: 20%;
+}
+
+.education__degrees {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.education__degree_card {
+	width: 100%;
+}
+
+.education__certification {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.education__certification__title__text {
+	font-size: var(--primary-header-font-size-mobile);
+	margin-top: 50%;
+	margin-bottom: 20%;
+}
