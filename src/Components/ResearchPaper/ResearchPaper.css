@@ -1,0 +1,68 @@
+.researchpaper {
+	background-color: rgba(17, 17, 17, 0.33);
+	border-radius: 8px;
+	margin: 10px;
+}
+.researchpaper__institute {
+	padding: 20px 0 0 0;
+}
+.researchpaper__institute__text {
+	background-color: white;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	color: black;
+	padding: 3px 5px;
+	font-size: 1.5vmax;
+}
+.researchpaper__details {
+	padding: 10px 20px;
+}
+
+.researchpaper__status {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+}
+
+.researchpaper__publish {
+	background-color: rgba(105, 105, 105, 0.537);
+	margin-right: 3px;
+	padding: 5px;
+	font-size: 1.5vmax;
+	border-radius: 3px;
+}
+.researchpaper__info {
+	display: flex;
+	align-items: center;
+}
+
+.researchpaper__status__info {
+	border-radius: 3px;
+	padding: 5px;
+	font-size: 1.5vmax;
+	margin-left: 5px;
+}
+
+.Published {
+	background-color: green;
+}
+
+.Inprogress {
+	background-color: rgb(197, 142, 66);
+}
+
+@media only screen and (min-width: 1100px) {
+	.researchpaper__institute__text,
+	.researchpaper__status__info,
+	.researchpaper__publish {
+		font-size: 1.2vmax;
+	}
+
+	.researchpaper__title {
+		font-size: 1.7vmax;
+	}
+
+	.researchpaper {
+		margin: 10px 10%;
+	}
+}

@@ -7,8 +7,8 @@
 
 .education__degree__title__text {
 	font-size: var(--primary-header-font-size-mobile);
-	margin-top: 50%;
-	margin-bottom: 20%;
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
 
 .education__degrees {
@@ -31,6 +31,18 @@
 
 .education__certification__title__text {
 	font-size: var(--primary-header-font-size-mobile);
-	margin-top: 50%;
-	margin-bottom: 20%;
+	margin-top: 20%;
+	margin-bottom: 10%;
+}
+
+.education__courses {
+	margin: 15px;
+}
+
+@media only screen and (min-width: 1100px) {
+	.education__courses {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
 }

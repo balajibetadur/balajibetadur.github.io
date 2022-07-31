@@ -4,8 +4,12 @@ import "./Education.css";
 import UserEducation from "../../Data/Education";
 import EducationImage from "../../Assets/Education.svg";
 import DegreeCard from "../../Components/DegreeCard/DegreeCard";
+import UserCourses from "../../Data/Courses";
+import Certificate from "../../Components/Certificate/Certificate";
+import { Fade } from "react-reveal";
 
 function Education() {
+	console.log(Object.values(UserCourses));
 	return (
 		<div className="education">
 			<PageLanding
@@ -15,34 +19,62 @@ function Education() {
 				description={UserEducation.description}
 			/>
 			<div className="education__degree">
-				<div className="education__degree__title">
-					<p className="education__degree__title__text">
-						Degrees Received
-					</p>
-				</div>
-				<div className="education__degrees">
-					{UserEducation.degrees.map(
+				<Fade bottom>
+					<div className="education__degree__title">
+						<p className="education__degree__title__text">
+							Degrees Received
+						</p>
+					</div>
+				</Fade>
+				<Fade bottom>
+					<div className="education__degrees">
+						{UserEducation.degrees.map(
+							(value, index) => {
+								return (
+									<DegreeCard
+										className="education__degree_card"
+										data={
+											value
+										}
+										key={
+											index
+										}
+									/>
+								);
+							},
+						)}
+					</div>
+				</Fade>
+			</div>
+			<div className="education__certification">
+				<Fade bottom>
+					<div className="education__certification__title">
+						<p className="education__certification__title__text">
+							Certifications
+						</p>
+					</div>
+				</Fade>
+				<div className="education__courses">
+					{UserCourses.courses.map(
 						(value, index) => {
 							return (
-								<DegreeCard
-									className="education__degree_card"
-									data={
-										value
+								<Certificate
+									title={
+										value.title
+									}
+									link={
+										value.link
 									}
 									key={
+										index
+									}
+									id={
 										index
 									}
 								/>
 							);
 						},
 					)}
-				</div>
-			</div>
-			<div className="education__certification">
-				<div className="education__certification__title">
-					<p className="education__certification__title__text">
-						Certifications
-					</p>
 				</div>
 			</div>
 		</div>

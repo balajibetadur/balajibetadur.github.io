@@ -1,0 +1,32 @@
+.certificate {
+	margin: 10px;
+	background-color: rgba(17, 17, 17, 0.33);
+	border-radius: 7px;
+	position: relative;
+	padding: 10px 20px;
+}
+.certificate:hover {
+	cursor: pointer;
+}
+
+.certificate__link {
+	text-decoration: none;
+	color: white;
+}
+
+.certificate__open {
+	opacity: 0.4;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+}
+
+.certificate__name {
+	font-weight: 300;
+}
+
+@media only screen and (min-width: 1100px) {
+	.certificate {
+		width: 300px;
+	}
+}
