@@ -7,18 +7,27 @@ const UserExperience = {
 	workExperience: [
 		{
 			title:
-				"Quantitaive Analyst and Backend Automation Intern ",
+				"Quantitaive Analyst and Backend Automation Developer",
 			from: "Jan 2021",
 			to: "Present",
 			description:
-				"Quantitaive Analyst and Backend Automation Intern Quantitaive Analyst and Backend Automation Intern Quantitaive Analyst and Backend Automation Intern Quantitaive Analyst ",
+				"Working on a cloud based customizable end-to-end trading platform. Features like multi-account trading, copy-trading, AI modules to analyse user activity and trades, trending signal generation and backtesting engine makes the platform unique.",
 			company: "Blueberry Capital",
+		},
+		{
+			title:
+				"Teaching Assistant (Frontend & Data Structures and Algorithms)",
+			from: "Feb 2020",
+			to: "Present",
+			description:
+				"Teaching Frontend technologies like ReactJS, Javascript, Data Structures and Algorithms to 300+ engineering students and working professionals who want to make a career shift.",
+			company: "Relevel by Unacademy",
 		},
 		{
 			title: "Python Automation Intern",
 			from: "Sep 2020",
 			to: "Jan 2021",
-			description: "",
+			description: "Automated 23+ trading strategies",
 			company: "Blueberry Capital",
 		},
 		{

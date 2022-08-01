@@ -30,14 +30,14 @@ function App() {
 							/>
 						}
 					/>
-					<Route
+					{/* <Route
 						path="/education"
 						element={<Education />}
 					/>
 					<Route
 						path="/experience"
 						element={<Experience />}
-					/>
+					/> */}
 				</Routes>
 				<Footer />
 				<ScrollToTop

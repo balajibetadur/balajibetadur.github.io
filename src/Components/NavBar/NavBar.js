@@ -14,6 +14,7 @@ import GridViewRoundedIcon from "@mui/icons-material/GridViewRounded";
 import { Link, NavLink } from "react-router-dom";
 import Reveal from "react-reveal/Reveal";
 import "./NavBar.css";
+import { Fade } from "react-reveal";
 
 function NavBar({ aboutRef }) {
 	const executeScroll = () => {
@@ -53,27 +54,25 @@ function NavBar({ aboutRef }) {
 
 	return (
 		<div className="navbar" id="navbar">
-			<Reveal effect="fadeInUp">
-				<div className="navbar__container">
-					<div className="navbar__name">
-						<Link to="/" className="link">
-							{User.firstName}
-							{User.lastName}
-						</Link>
-						<GridViewRoundedIcon
-							onClick={toggleMenu}
-							className="navbar__options__icon icon"
-						/>
-					</div>
+			{/* <Reveal effect="fadeInUp"> */}
+			<div className="navbar__container">
+				<div className="navbar__name">
+					<Link to="/" className="link">
+						{User.firstName}
+						{User.lastName}
+					</Link>
+					<GridViewRoundedIcon
+						onClick={toggleMenu}
+						className="navbar__options__icon icon"
+					/>
+				</div>
 
+				<div className="navbar__menu" style={style}>
 					<div
-						className="navbar__menu"
-						style={style}
+						className={`navbar__options`}
+						id="navbar__options"
 					>
-						<div
-							className={`navbar__options`}
-							id="navbar__options"
-						>
+						<Fade top delay={200}>
 							<NavLink
 								className="link"
 								to="/"
@@ -91,6 +90,8 @@ function NavBar({ aboutRef }) {
 									About
 								</span>
 							</NavLink>
+						</Fade>
+						<Fade top delay={400}>
 							<NavLink
 								className="link"
 								to="/education"
@@ -107,7 +108,9 @@ function NavBar({ aboutRef }) {
 									Education
 								</span>
 							</NavLink>
+						</Fade>
 
+						<Fade top delay={600}>
 							<NavLink
 								className="link"
 								to="/experience"
@@ -124,6 +127,8 @@ function NavBar({ aboutRef }) {
 									Experience
 								</span>
 							</NavLink>
+						</Fade>
+						<Fade top delay={800}>
 							<NavLink
 								className="link"
 								to="/projects"
@@ -140,7 +145,9 @@ function NavBar({ aboutRef }) {
 									Projects
 								</span>
 							</NavLink>
+						</Fade>
 
+						<Fade top delay={1000}>
 							<NavLink
 								className="link"
 								to="/achievements"
@@ -157,6 +164,8 @@ function NavBar({ aboutRef }) {
 									Achievements
 								</span>
 							</NavLink>
+						</Fade>
+						<Fade top delay={1200}>
 							<NavLink
 								className="link"
 								to="/contact"
@@ -166,18 +175,17 @@ function NavBar({ aboutRef }) {
 									Contact
 								</span>
 							</NavLink>
-						</div>
-						<div className="navbar__close">
-							<CloseRoundedIcon
-								onClick={
-									toggleMenu
-								}
-								className="navbar__close__icon icon"
-							/>
-						</div>
+						</Fade>
+					</div>
+					<div className="navbar__close">
+						<CloseRoundedIcon
+							onClick={toggleMenu}
+							className="navbar__close__icon icon"
+						/>
 					</div>
 				</div>
-			</Reveal>
+			</div>
+			{/* </Reveal> */}
 		</div>
 	);
 }

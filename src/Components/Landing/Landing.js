@@ -12,12 +12,15 @@ import Fade from "react-reveal/Fade";
 
 function Landing() {
 	return (
-		<Fade duration={3000}>
+		<Fade duration={3000} delay={1200}>
 			<div className="home">
 				{/* <img src={wl} className="wl"/> */}
 				<div className="home__container">
 					<div className="home__user__profile">
-						<Fade delay={1500} bottom>
+						<Fade
+							delay={1500 + 1200}
+							bottom
+						>
 							<div className="home__social__media">
 								<MailRoundedIcon className="home__social__media__icon icon" />
 								<LinkedInIcon className="home__social__media__icon icon" />
@@ -61,14 +64,14 @@ function Landing() {
 						</div>
 					</div>
 					<div className="home__user__description">
-						<Fade delay={500}>
+						<Fade delay={500 + 1200}>
 							<p className="home__wish__text">
 								Hi, I'm{" "}
 								{User.firstName}
 								.
 							</p>
 						</Fade>
-						<Fade delay={700}>
+						<Fade delay={700 + 1200}>
 							<p className="home__description1">
 								I build value
 								through{" "}
@@ -88,14 +91,14 @@ function Landing() {
 								.
 							</p>
 						</Fade>
-						<Fade delay={900}>
+						<Fade delay={900 + 1200}>
 							<p className="home__description2">
 								{
 									LandingPageContent.description2
 								}
 							</p>
 						</Fade>
-						<Fade delay={1100}>
+						<Fade delay={1100 + 1200}>
 							<p className="home__catch__phrase">
 								`
 								{
@@ -104,7 +107,7 @@ function Landing() {
 								`
 							</p>
 						</Fade>
-						<Fade delay={1300}>
+						<Fade delay={1300 + 1200}>
 							<div className="home__resume">
 								<p className="home__view__resume">
 									Resume{" "}

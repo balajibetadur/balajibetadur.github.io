@@ -1,6 +1,6 @@
 .experiencecard {
 	display: flex;
-	align-items: center;
+	/* align-items: center; */
 	background-color: rgba(17, 17, 17, 0.33);
 	border-radius: 8px;
 	padding: 10px;
@@ -42,8 +42,9 @@
 	}
 	.experiencecard__section1 {
 		min-width: 20%;
-		display: block;
-		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 
 	.experience__title {
