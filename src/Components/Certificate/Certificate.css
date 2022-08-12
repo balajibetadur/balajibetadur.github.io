@@ -3,7 +3,7 @@
 	background-color: rgba(17, 17, 17, 0.33);
 	border-radius: 7px;
 	position: relative;
-	padding: 10px 20px;
+	padding: 10px 20px 30px 20px;
 }
 .certificate:hover {
 	cursor: pointer;
@@ -18,11 +18,20 @@
 	opacity: 0.4;
 	position: absolute;
 	right: 5px;
-	bottom: 5px;
+	top: 5px;
 }
 
 .certificate__name {
 	font-weight: 300;
+}
+
+.certificate__info{
+	font-size: 13px;
+	font-weight: 300;
+	color: rgb(184, 184, 184);
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
 }
 
 @media only screen and (min-width: 1100px) {

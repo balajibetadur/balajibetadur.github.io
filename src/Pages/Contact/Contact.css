@@ -2,12 +2,18 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-direction: column;
 }
 
 .contact__image__div{
-    margin: 20px 100px;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: center;
 }
 
+.contact__image{
+    transform: scale(0.7);
+}
 .social__media__icons{
     display: flex;
     justify-content: center;
@@ -72,4 +78,20 @@
     cursor: pointer;
     transform: translateY(-10px);
     transition: 0.5s;
+}
+
+
+@media only screen and (min-width: 1100px){
+    .contact{
+        flex-direction: row;
+    }
+
+    .contact__image__div{
+    margin: 20px 100px;
+    display: block;
+}
+
+.contact__image{
+    transform: scale(0.9);
+}
 }

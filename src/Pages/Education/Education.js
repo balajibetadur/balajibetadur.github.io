@@ -65,6 +65,7 @@ function Education() {
 									link={
 										value.link
 									}
+									by={value.by}
 									key={
 										index
 									}

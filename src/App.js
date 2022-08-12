@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import "./App.css";
 import Home from "./Pages/Home/Home";
 import Experience from "./Pages/Experience/Experience";
@@ -18,10 +18,23 @@ import Contact from "./Pages/Contact/Contact";
 function App() {
 	const aboutRef = useRef(null);
 	const { pathname } = useLocation();
+	const [width, setWidth] = useState(window.innerWidth);
 
-	// useEffect(() => {
-	// 	window.scrollTo(0, 0);
-	// }, [pathname]);
+	const updateDimensions = () => {
+		setWidth(window.innerWidth);
+	};
+
+	useEffect(() => {
+		window.addEventListener("resize", updateDimensions);
+		return () =>
+			window.removeEventListener("resize", updateDimensions);
+	}, []);
+
+	useEffect(() => {
+		if (width < 1100) {
+			window.scrollTo(0, 0);
+		}
+	}, [pathname]);
 	return (
 		<div className="App">
 			<NavBar aboutRef={aboutRef} />

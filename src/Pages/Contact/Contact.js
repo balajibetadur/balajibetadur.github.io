@@ -12,7 +12,7 @@ function Contact() {
         <div className='contact'>
             <Fade left>
                 <div className="contact__image__div">
-                    <img src={ContactImage} alt="" className="contat__image" />
+                    <img src={ContactImage} alt="" className="contact__image" />
                 </div>
             </Fade>
             <div className="contact__info">
