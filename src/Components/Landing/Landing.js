@@ -13,23 +13,24 @@ import dp from "../../Assets/dp.png";
 
 function Landing() {
 	return (
-		<Fade duration={3000} delay={1200}>
-			<div className="home">
-				{/* <img src={wl} className="wl"/> */}
-				<div className="home__container">
-					<div className="home__user__profile">
-						<Fade
-							delay={1500 + 1200}
-							bottom
-						>
-							<div className="home__social__media">
-								<MailRoundedIcon className="home__social__media__icon icon" />
-								<LinkedInIcon className="home__social__media__icon icon" />
-								<GitHubIcon className="home__social__media__icon icon" />
-								<div className="home__social__media__line"></div>
-							</div>
-						</Fade>
+		// <Fade duration={3000} delay={1200}>
+		<div className="home">
+			{/* <img src={wl} className="wl"/> */}
+			<div className="home__container">
+				<div className="home__user__profile">
+					<Fade
+						delay={1500 + 1200}
+						bottom
+					>
+						<div className="home__social__media">
+							<a href={User.gmail} target='_blank'><MailRoundedIcon className="home__social__media__icon icon" /></a>
+							<a href={User.linkedin} target='_blank'><LinkedInIcon className="home__social__media__icon icon" /></a>
+							<a href={User.github} target='_blank'><GitHubIcon className="home__social__media__icon icon" /></a>
+							<div className="home__social__media__line"></div>
+						</div>
+					</Fade>
 
+					<Fade bottom delay={1000} duration={2000}>
 						<div className="home__profile__image">
 							<svg
 								className="blob"
@@ -65,69 +66,70 @@ function Landing() {
 								</g>
 							</svg>
 						</div>
-					</div>
-					<div className="home__user__description">
-						<Fade delay={500 + 1200}>
-							<p className="home__wish__text">
-								Hi, I'm{" "}
-								{User.firstName}
-								.
+					</Fade>
+				</div>
+				<div className="home__user__description">
+					<Fade delay={500 + 1200}>
+						<p className="home__wish__text">
+							Hi, I'm{" "}
+							{User.firstName}
+							.
+						</p>
+					</Fade>
+					<Fade delay={700 + 1200}>
+						<p className="home__description1">
+							I build value
+							through{" "}
+							<span className="highlight">
+								Data
+								Science
+							</span>
+							,{" "}
+							<span className="highlight">
+								Machine
+								Learning
+							</span>{" "}
+							and{" "}
+							<span className="highlight">
+								Frontend
+							</span>
+							.
+						</p>
+					</Fade>
+					<Fade delay={900 + 1200}>
+						<p className="home__description2">
+							{
+								LandingPageContent.description2
+							}
+						</p>
+					</Fade>
+					<Fade delay={1100 + 1200}>
+						<p className="home__catch__phrase">
+							`
+							{
+								LandingPageContent.catchPhrase
+							}
+							`
+						</p>
+					</Fade>
+					<Fade delay={1300 + 1200}>
+						<a href={User.resume} target='_blank' className="home__resume">
+							<p className="home__view__resume">
+								Resume{" "}
+								<SendRoundedIcon
+									style={{
+										height:
+											"18px",
+									}}
+									className="home__resume__icon"
+								/>
 							</p>
-						</Fade>
-						<Fade delay={700 + 1200}>
-							<p className="home__description1">
-								I build value
-								through{" "}
-								<span className="highlight">
-									Data
-									Science
-								</span>
-								,{" "}
-								<span className="highlight">
-									Machine
-									Learning
-								</span>{" "}
-								and{" "}
-								<span className="highlight">
-									Frontend
-								</span>
-								.
-							</p>
-						</Fade>
-						<Fade delay={900 + 1200}>
-							<p className="home__description2">
-								{
-									LandingPageContent.description2
-								}
-							</p>
-						</Fade>
-						<Fade delay={1100 + 1200}>
-							<p className="home__catch__phrase">
-								`
-								{
-									LandingPageContent.catchPhrase
-								}
-								`
-							</p>
-						</Fade>
-						<Fade delay={1300 + 1200}>
-							<div className="home__resume">
-								<p className="home__view__resume">
-									Resume{" "}
-									<SendRoundedIcon
-										style={{
-											height:
-												"18px",
-										}}
-										className="home__resume__icon"
-									/>
-								</p>
-							</div>
-						</Fade>
-					</div>
+						</a>
+					</Fade>
 				</div>
 			</div>
-		</Fade>
+		</div>
+		// </Fade>
 	);
 }
 

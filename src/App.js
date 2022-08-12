@@ -10,6 +10,8 @@ import ScrollToTop from "react-scroll-up";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import Education from "./Pages/Education/Education";
 import Projects from "./Pages/Projects/Projects";
+import Achievements from "./Pages/Achievements/Achievements";
+import Contact from "./Pages/Contact/Contact";
 // import "bootstrap/dist/css/bootstrap.min.css";
 // import "bootstrap/dist/js/bootstrap.bundle.min";
 
@@ -17,9 +19,9 @@ function App() {
 	const aboutRef = useRef(null);
 	const { pathname } = useLocation();
 
-	useEffect(() => {
-		window.scrollTo(0, 0);
-	}, [pathname]);
+	// useEffect(() => {
+	// 	window.scrollTo(0, 0);
+	// }, [pathname]);
 	return (
 		<div className="App">
 			<NavBar aboutRef={aboutRef} />
@@ -53,16 +55,25 @@ function App() {
 						<Projects />
 					}
 				/>
+				<Route
+					path="/achievements"
+					element={
+						<Achievements />
+					}
+				/>
+				<Route
+					path="/contact"
+					element={
+						<Contact />
+					}
+				/>
 			</Routes>
 			<Footer />
 			<ScrollToTop
 				className="scrollToTop"
 				showUnder={500}
 			>
-				<KeyboardArrowUpIcon onClick={() => {
-					window.scrollTo(0, 0);
-					window.location.reload()
-				}} className="scrollToTopIcon" />
+				<KeyboardArrowUpIcon className="scrollToTopIcon" />
 			</ScrollToTop>
 		</div>
 	);

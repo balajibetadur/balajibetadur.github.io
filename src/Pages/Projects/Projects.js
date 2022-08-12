@@ -26,11 +26,6 @@ function Projects() {
             </div>
 
             <div className="projects__list">
-                <Fade bottom>
-                    <div className="project__title">
-                        Projects
-                    </div>
-                </Fade>
                 <div className="projects__section">
                     {userProjects.projects.map((value, index) => {
                         return <ProjectCard title={value.title} desc={value.description} skills={value.skills} index={index} />

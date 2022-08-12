@@ -58,6 +58,8 @@
 .home__social__media__icon {
 	/* transform: scale(1.2); */
 	padding: 13px 0;
+	text-decoration: none;
+	color: white;
 }
 
 .home__social__media__line {
@@ -99,6 +101,8 @@
 
 .home__resume {
 	z-index: 999;
+	text-decoration: none;
+	color: white;
 }
 
 .home__view__resume {

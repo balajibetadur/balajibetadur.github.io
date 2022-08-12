@@ -26,7 +26,8 @@
 @media only screen and (min-width: 1000px) {
 	.pagelanding {
 		flex-direction: row;
-		margin-top: 60px;
+		margin-top: 0;
+		/* margin-bottom: 60px; */
 		justify-content: space-around;
 	}
 	.pagelanding__section1 {
