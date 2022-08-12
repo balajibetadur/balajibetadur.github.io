@@ -7,6 +7,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import SendRoundedIcon from "@mui/icons-material/SendRounded";
 import User from "../../Data/User";
 import Fade from "react-reveal/Fade";
+import dp from "../../Assets/dp.png";
 
 // import wl from '../../Assets/im.jpeg'
 
@@ -57,7 +58,9 @@ function Landing() {
 										x="10"
 										y="-15"
 										className="blob__img"
-										href="dp.png"
+										href={
+											dp
+										}
 									/>
 								</g>
 							</svg>

@@ -9,7 +9,7 @@ import Certificate from "../../Components/Certificate/Certificate";
 import { Fade } from "react-reveal";
 
 function Education() {
-	console.log(Object.values(UserCourses));
+
 	return (
 		<div className="education">
 			<PageLanding

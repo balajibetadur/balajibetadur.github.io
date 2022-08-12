@@ -60,7 +60,9 @@ function About({ aboutRef }) {
 							)}
 						</div>
 					</div>
+
 				</div>
+
 				<div className="about__user__domains">
 					<Domains />
 				</div>
