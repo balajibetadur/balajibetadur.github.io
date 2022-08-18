@@ -1,12 +1,13 @@
 .volunteercard {
 	background-color: rgba(17, 17, 17, 0.33);
-	margin: 5px 10px;
+	margin: 10px;
 	border-radius: 7px;
 	overflow: hidden;
 }
 
 .volunteercard__section1 {
 	padding: 5px 10px;
+		background-color: rgb(72, 72, 72);
 }
 
 .hr {
@@ -37,13 +38,18 @@
 		width: 18%;
 	}
 	.volunteercard__title {
-		font-size: 1.5vmax;
+		font-size: 1.3vmax;
 	}
 	.volunteercard__company {
-		font-size: 1vmax;
+		font-size: 0.8vmax;
+		margin: 0;
 	}
 	.volunteercard__section1 {
-		min-height: 130px;
-		background-color: rgb(72, 72, 72);
+		min-height: 90px;
 	}
+
+	
+.volunteercard__section2 {
+	padding: 20px;
+}
 }

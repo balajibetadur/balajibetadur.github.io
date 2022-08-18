@@ -45,6 +45,10 @@
 	transform: scale(1.2);
 }
 
+svg:not(:root) {
+    overflow: block !important;
+}
+
 .navbar__options {
 	display: grid;
 	grid-template-columns: auto auto auto;

@@ -54,6 +54,9 @@ function Experience() {
 									toDate={
 										value.to
 									}
+									moreDesc={
+										value.more
+									}
 								/>
 							);
 						},
