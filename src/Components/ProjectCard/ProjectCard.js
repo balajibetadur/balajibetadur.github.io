@@ -3,13 +3,13 @@ import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import './ProjectCard.css'
 import { Fade } from 'react-reveal';
 
-function ProjectCard({ title, desc, skills, index }) {
+function ProjectCard({ title, desc, skills, index, link }) {
     return (
         <Fade bottom delay={index * 200}>
             <div className='projectcard'>
-                <Fade left delay={1000}><a href="" target='_blank' className="projectcard__github"><p>GitHub</p> <OpenInNewIcon className='github__open__icon' /></a></Fade>
+                <Fade left delay={1000}><a href={link} target='_blank' className="projectcard__github"><p>GitHub</p> <OpenInNewIcon className='github__open__icon' /></a></Fade>
                 <p className="projectcard__title">{title}</p>
-                <p className="projectcard__desc">{desc}</p>
+                {desc && desc.map((des, value) => <p className="projectcard__desc">{des}</p>)}
                 <div className="projectcard__skills">
                     {Object.entries(skills).map((value, index) => {
                         return <div className="projectcard__skill">

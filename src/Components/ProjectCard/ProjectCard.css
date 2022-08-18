@@ -1,9 +1,10 @@
 .projectcard{
-    margin: 20px 5px;
+    margin: 20px 10px;
     padding: 10px;
-    background-color: rgba(21, 21, 21, 0.299);
+    background-color: rgba(73, 73, 73, 0.299);
     border-radius: 5px;
     position: relative;
+    padding-bottom: 70px;
 }
 
 .projectcard__title{
@@ -13,21 +14,34 @@
 
 .projectcard__skill__image{
     height: 30px;
+    border-radius: 3px;
     width: auto;
+    align-self: center;
 }
 
 .projectcard__skills{
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content:space-around;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
 
 .projectcard__skill{
     margin: 10px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
 }
 
 .projectcard__skill__name{
     font-size: 10px;
+    text-align: center;
+}
+
+.projectcard__desc{
+    margin: 15px 10px;
 }
 
 .projectcard__github{
@@ -69,6 +83,8 @@ font-weight: bold;
 }
 .projectcard__skills{
     justify-content:right;
+    
+    right: 10px;
 }
 
 }

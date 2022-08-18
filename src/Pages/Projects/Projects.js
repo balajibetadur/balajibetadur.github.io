@@ -28,7 +28,7 @@ function Projects() {
             <div className="projects__list">
                 <div className="projects__section">
                     {userProjects.projects.map((value, index) => {
-                        return <ProjectCard title={value.title} desc={value.description} skills={value.skills} index={index} />
+                        return <ProjectCard title={value.title} desc={value.description} skills={value.skills} index={index} link={value.github} />
                     })}
                 </div>
             </div>

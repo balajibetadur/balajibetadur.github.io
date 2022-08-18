@@ -23,6 +23,9 @@ import lambda from "../Assets/lambda.png";
 import DataScienceAI from "../Assets/DataScience.svg";
 import FrontEnd from "../Assets/Frontend.svg";
 import Cloud from "../Assets/Cloud.svg";
+import opencv from "../Assets/opencv.png";
+import selenium from "../Assets/selenium.png";
+import heroku from "../Assets/heroku.png";
 
 const UserDomains = {
 	"Data Science & Machine Learning": {
@@ -37,9 +40,10 @@ const UserDomains = {
 			sklearn: sklearn,
 			keras: keras,
 			fastai: fastai,
-			sql: sql,
+			opencv: opencv,
 			pandas: pandas,
-			colab: colab,
+			sql: sql,
+			selenium: selenium
 		},
 	},
 	"Frontend Development": {
@@ -59,6 +63,7 @@ const UserDomains = {
 			npm: npm,
 			rest: rest,
 			flask: flask,
+			heroku: heroku
 		},
 	},
 	"Cloud Infra-Architecture": {
