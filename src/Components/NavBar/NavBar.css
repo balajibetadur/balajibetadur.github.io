@@ -36,6 +36,7 @@
 	box-shadow: 0 -5px 3px rgba(0, 0, 0, 0.2);
 	background-color: var(--primary-color);
 	display: block;
+	font-weight: bold;
 }
 
 .navbar__options__icon {
@@ -144,7 +145,8 @@ svg:not(:root) {
 		/* width: 100%; */
 		font-size: 25px;
 		color: white;
-		font-weight: 400;
+		font-weight: 500;
+		letter-spacing:0.5px;
 		padding: 0 0 0 60px;
 		z-index: 1000;
 		box-shadow: none;
@@ -155,18 +157,20 @@ svg:not(:root) {
 		margin: 0;
 		padding: 15px 30px;
 		/* color: rgba(255, 255, 255, 0.737); */
-		color: white;
+		color: rgb(187, 187, 187);
 		display: flex;
 		flex-direction: column;
+		font-weight: 500;
 	}
 
 	.navbar__option:hover {
 		background-color: rgba(147, 147, 147, 0.201);
+		color: white;
 	}
 
-	.active {
+	.active > span {
 		font-weight: bolder;
-		color: white;
+		color: white !important;
 		border-bottom: 1px solid rgba(128, 128, 128, 0.453);
 	}
 }

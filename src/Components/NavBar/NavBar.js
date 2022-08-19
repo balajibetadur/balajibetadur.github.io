@@ -58,8 +58,7 @@ function NavBar({ aboutRef }) {
 			<div className="navbar__container">
 				<div className="navbar__name">
 					<Link to="/" className="link">
-						{User.firstName}
-						{User.lastName}
+						<span>{User.firstName} {User.lastName}</span>
 					</Link>
 					<GridViewRoundedIcon
 						onClick={toggleMenu}
