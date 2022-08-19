@@ -30,9 +30,9 @@ function App() {
 	}, []);
 
 	useEffect(() => {
-		if (width < 1100) {
-			window.scrollTo(0, 0);
-		}
+		// if (width < 1100) {
+		window.scrollTo(0, 0);
+		// }
 	}, [pathname]);
 
 	// let container = useRef(null);
