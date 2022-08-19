@@ -16,7 +16,7 @@ import Contact from "./Pages/Contact/Contact";
 
 function App() {
 	const aboutRef = useRef(null);
-	// const { pathname } = useLocation();
+	const { pathname } = useLocation();
 	const [width, setWidth] = useState(window.innerWidth);
 
 	const updateDimensions = () => {
