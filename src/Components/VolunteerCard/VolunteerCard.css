@@ -2,8 +2,10 @@
 	background-color: rgba(17, 17, 17, 0.33);
 	margin: 10px;
 	border-radius: 7px;
+	display: inline-block;
 	overflow: hidden;
 }
+
 
 .volunteercard__section1 {
 	padding: 5px 10px;
@@ -31,6 +33,12 @@
 	opacity: 0.6;
 	margin: 0;
 	margin-bottom: 10px;
+}
+.volunteercard:hover{
+	transform: translateY(-10px) !important;
+	transition: 0.5s !important;
+	box-shadow: 0 0 5px 5px grey;
+	cursor: pointer;
 }
 
 @media only screen and (min-width: 1100px) {

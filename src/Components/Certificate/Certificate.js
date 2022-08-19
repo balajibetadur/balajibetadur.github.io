@@ -6,6 +6,7 @@ import { Fade } from "react-reveal";
 function Certificate({ title, link, by, id }) {
 	return (
 		<Fade bottom delay={id * 200}>
+
 			<div
 				onClick={() =>
 					window.open(

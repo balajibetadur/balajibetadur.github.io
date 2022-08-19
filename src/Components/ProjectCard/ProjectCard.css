@@ -7,6 +7,10 @@
     padding-bottom: 80px;
 }
 
+.projectcard:hover{
+    background-color: rgba(23, 23, 23, 0.515);
+    transition: 0.5s;
+}
 .projectcard__title{
     font-size: 22px;
     margin: 20px 0 0 0;

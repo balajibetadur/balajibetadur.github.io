@@ -4,9 +4,25 @@
 	border-radius: 7px;
 	position: relative;
 	padding: 10px 20px 30px 20px;
+
 }
 .certificate:hover {
 	cursor: pointer;
+	background-color: rgba(9, 185, 185, 0.495);
+	transition: 1s;
+	box-shadow: 0 0 5px 5px rgb(32, 32, 32);
+
+}	
+
+.certificate__name {
+	font-weight: 300;
+}
+
+.certificate:hover > p,
+.certificate:hover > span{
+	font-size: bolder;
+	color: white;
+	opacity: 1;
 }
 
 .certificate__link {
@@ -21,9 +37,6 @@
 	top: 5px;
 }
 
-.certificate__name {
-	font-weight: 300;
-}
 
 .certificate__info{
 	font-size: 13px;
@@ -33,6 +46,8 @@
 	right: 10px;
 	bottom: 10px;
 }
+
+
 
 @media only screen and (min-width: 1100px) {
 	.certificate {

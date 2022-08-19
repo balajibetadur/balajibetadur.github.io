@@ -4,7 +4,7 @@ import "./VolunteerCard.css";
 
 function VolunteerCard({ id, title, company, description }) {
 	return (
-		<Fade bottom delay={id * 300}>
+		<Fade bottom delay={id * 300} >
 			<div className="volunteercard">
 				<div className="volunteercard__section1">
 					<p className="volunteercard__title">

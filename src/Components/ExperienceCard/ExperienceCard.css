@@ -6,6 +6,12 @@
 	padding: 20px;
 	margin: 10px;
 }
+.experiencecard:hover{
+	background-color:rgba(139, 51, 222, 0.4919);
+	transition: 1s;
+	box-shadow: 0 0 5px 5px rgb(32, 32, 32);
+
+}
 
 .experiencecard__section1 {
 	width: 0;
