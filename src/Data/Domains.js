@@ -48,7 +48,7 @@ const UserDomains = {
 	},
 	"Frontend Development": {
 		description: [
-			"⚡ Building full stack applications using RESt API to provide flexible and scalable inetegration",
+			"⚡ Building full stack applications using REST API to provide flexible and scalable inetegration",
 			"⚡ Building resposive website front end using React-Redux",
 			"⚡ Creating application backend in Node, Express & Flask",
 		],
