@@ -71,7 +71,7 @@ function NavBar({ aboutRef }) {
 						className={`navbar__options`}
 						id="navbar__options"
 					>
-						<Fade top delay={200}>
+						<Fade top delay={100}>
 							<NavLink
 								className="link"
 								to="/"
@@ -90,7 +90,7 @@ function NavBar({ aboutRef }) {
 								</span>
 							</NavLink>
 						</Fade>
-						<Fade top delay={400}>
+						<Fade top delay={200}>
 							<NavLink
 								className="link"
 								to="/education"
@@ -109,7 +109,7 @@ function NavBar({ aboutRef }) {
 							</NavLink>
 						</Fade>
 
-						<Fade top delay={600}>
+						<Fade top delay={300}>
 							<NavLink
 								className="link"
 								to="/experience"
@@ -127,7 +127,7 @@ function NavBar({ aboutRef }) {
 								</span>
 							</NavLink>
 						</Fade>
-						<Fade top delay={800}>
+						<Fade top delay={400}>
 							<NavLink
 								className="link"
 								to="/projects"
@@ -146,7 +146,7 @@ function NavBar({ aboutRef }) {
 							</NavLink>
 						</Fade>
 
-						<Fade top delay={1000}>
+						<Fade top delay={500}>
 							<NavLink
 								className="link"
 								to="/achievements"
@@ -164,7 +164,7 @@ function NavBar({ aboutRef }) {
 								</span>
 							</NavLink>
 						</Fade>
-						<Fade top delay={1200}>
+						<Fade top delay={600}>
 							<NavLink
 								className="link"
 								to="/contact"

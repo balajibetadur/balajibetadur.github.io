@@ -71,7 +71,7 @@ function Landing() {
 				<div className="home__user__description">
 					<Fade delay={500 + 1200}>
 						<p className="home__wish__text">
-							Hi, I'm{" "}
+							Hi 👋, I'm{" "}
 							{User.firstName}
 							.
 						</p>

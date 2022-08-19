@@ -172,5 +172,6 @@ svg:not(:root) {
 		font-weight: bolder;
 		color: white !important;
 		border-bottom: 1px solid rgba(128, 128, 128, 0.453);
+		transition: 0.5s;
 	}
 }
