@@ -12,12 +12,11 @@ import Education from "./Pages/Education/Education";
 import Projects from "./Pages/Projects/Projects";
 import Achievements from "./Pages/Achievements/Achievements";
 import Contact from "./Pages/Contact/Contact";
-// import "bootstrap/dist/css/bootstrap.min.css";
-// import "bootstrap/dist/js/bootstrap.bundle.min";
+// import LocomotiveScroll from "locomotive-scroll";
 
 function App() {
 	const aboutRef = useRef(null);
-	const { pathname } = useLocation();
+	// const { pathname } = useLocation();
 	const [width, setWidth] = useState(window.innerWidth);
 
 	const updateDimensions = () => {
@@ -30,12 +29,28 @@ function App() {
 			window.removeEventListener("resize", updateDimensions);
 	}, []);
 
-	useEffect(() => {
-		if (width < 1100) {
-			window.scrollTo(0, 0);
-		}
-	}, [pathname]);
+	// useEffect(() => {
+	// 	if (width < 1100) {
+	// 		window.scrollTo(0, 0);
+	// 	}
+	// }, [pathname]);
+
+	// let container = useRef(null);
+
+	// useEffect(() => {
+
+	// 	new LocomotiveScroll({
+	// 		el: container,
+	// 		smooth: true,
+	// 		lerp: .06,
+	// 		multiplier: .5
+	// 	});
+
+	// }, []);
+
 	return (
+		// <div ref={el => container = el}>
+		// <div className="App" data-scroll data-scroll-speed="1">
 		<div className="App">
 			<NavBar aboutRef={aboutRef} />
 			<Routes>
@@ -89,6 +104,7 @@ function App() {
 				<KeyboardArrowUpIcon className="scrollToTopIcon" />
 			</ScrollToTop>
 		</div>
+		// </div >
 	);
 }
 

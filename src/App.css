@@ -18,6 +18,7 @@ body {
 	background-color: var(--primary-color);
 	color: var(--primary-text-color);
 	font-family: "Montserrat", sans-serif;
+	scroll-behavior: smooth;
 }
 
 *::-webkit-scrollbar {
@@ -63,6 +64,10 @@ body {
 	}
 }
 
+/* .App{
+		margin-top: 0;
+	} */
+
 .fadeInUp {
 	animation-name: fadeInUp;
 	transition: 0.5s;
@@ -73,10 +78,13 @@ body {
 		transform: scale(1.2);
 	}
 	
+	/* .App{
+		margin-top: -120px;
+	} */
 }
-
 .scrollToTopIcon {
 	background-color: rgba(149, 149, 149, 0.577);
 	padding: 15px;
 	border-radius: 50%;
 }
+

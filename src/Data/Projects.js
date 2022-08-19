@@ -78,18 +78,21 @@ const projects = {
                 react: react,
                 redux: redux,
                 javascript: javascript,
+                bootstrap: bootstrap,
                 firebase: firebase,
-                bootstrap: bootstrap
             },
             github: 'https://github.com/balajibetadur/Study-Abroad-Preperation-Platform'
         },
         {
             title: 'Automation Project',
-            description: '',
+            description: [
+                'Python scripts that automate simple daily-to-day life repetitive tasks. Selenium allows automating any web-browser-based tasks using chrome driver in a very short time.',
+                'It saved me 8+ hours per week completing automated tasks in less than 1/10th of usual time.'
+            ],
             skills: {
                 selenium: selenium,
                 python: python,
-                rest: rest,
+                restAPI: rest,
                 pandas: pandas,
                 heroku: heroku,
 
@@ -98,7 +101,10 @@ const projects = {
         },
         {
             title: 'Moving Window Object Detection',
-            description: '',
+            description: [
+                'An object detection algorithm designed using image classification technique with the moving window method.',
+                'Won 2nd prize in National level AI Hackathon at a Techfest held by IIT-Bombay.'
+            ],
             skills: {
                 keras: keras,
                 opencv: opencv,
@@ -111,7 +117,10 @@ const projects = {
         },
         {
             title: 'Desktop Voice Assistant',
-            description: '',
+            description: [
+                'A voice-based desktop assistant implemented using python (pyttsx3)that perform every day tasks on the desktop.',
+                'Simple tasks like search something on google, open any application, desktop hardware operations like open settings, increase brightness/volume, sleep, shudown and restart'
+            ],
             skills: {
                 python: python,
                 pyttsx3: pyttsx3,
@@ -125,8 +134,8 @@ const projects = {
         {
             title: 'Master Portfolio',
             description: [
-                "Designed a platform to train, re - train, use, and export machine learning models irrespective of the user's technical knowledge that helped 200+ students. The application also provides a hyperparameter tuning feature.",
-                "Eliminated the barrier for non - tech students from accessing the advantages of machine learning."
+                "Designed a customizable portfolio website in react. It has a central data storage (json) from where website content can be easily modified. ",
+                "Used react-router for routing and react-reveal for animations."
 
             ],
             skills: {
@@ -134,7 +143,7 @@ const projects = {
                 reactrouter: reactrouter,
                 netlify: netlify,
                 bootstrap: bootstrap,
-                mui: mui
+                npm: npm,
             },
             github: 'https://github.com/balajibetadur/Portfolio-ReactJS'
         },

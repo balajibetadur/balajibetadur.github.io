@@ -61,7 +61,7 @@ const UserDomains = {
 			redux: redux,
 			node: node,
 			npm: npm,
-			rest: rest,
+			restAPI: rest,
 			flask: flask,
 			heroku: heroku
 		},

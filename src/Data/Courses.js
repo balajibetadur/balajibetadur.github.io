@@ -62,11 +62,11 @@ const UserCourses = {
 			by: 'IBM Skills Network', link:
 				"https://coursera.org/share/aa557771305c3359ee01c30d57f270b3",
 		},
-		{
-			title: "Data Visualization with Python",
-			by: 'IBM Skills Network', link:
-				"https://coursera.org/share/d19597c937d9db03944ebc4a8d7f5508",
-		},
+		// {
+		// 	title: "Data Visualization with Python",
+		// 	by: 'IBM Skills Network', link:
+		// 		"https://coursera.org/share/d19597c937d9db03944ebc4a8d7f5508",
+		// },
 		{
 			title: "Databases and SQL for Data Science with Python",
 			by: 'IBM Skills Network', link:
