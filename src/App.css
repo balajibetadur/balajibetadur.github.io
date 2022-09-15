@@ -12,9 +12,6 @@
 	--secondary-header-font-size-mobile: 2.5vmax;
 }
 
-*{
-	overflow-x: hidden;
-}
 
 body {
 	margin: 0;
