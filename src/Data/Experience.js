@@ -25,7 +25,7 @@ const UserExperience = {
 		{
 			title:
 				"Teaching Assistant (Frontend & Data Structures and Algorithms)",
-			from: "Feb 2020",
+			from: "Feb 2022",
 			to: "Present",
 			description:
 				"Teaching Frontend technologies like ReactJS, Javascript, Data Structures and Algorithms and Competitive Programming to 300+ engineering students and working professionals",

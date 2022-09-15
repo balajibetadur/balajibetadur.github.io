@@ -15,6 +15,7 @@ import { Link, NavLink } from "react-router-dom";
 // import Reveal from "react-reveal/Reveal";
 import "./NavBar.css";
 import { Fade } from "react-reveal";
+import MenuIcon from '@mui/icons-material/Menu';
 
 function NavBar({ aboutRef }) {
 	const executeScroll = () => {
@@ -60,7 +61,7 @@ function NavBar({ aboutRef }) {
 					<Link to="/" className="link">
 						<span>{User.firstName} {User.lastName}</span>
 					</Link>
-					<GridViewRoundedIcon
+					<MenuIcon
 						onClick={toggleMenu}
 						className="navbar__options__icon icon"
 					/>

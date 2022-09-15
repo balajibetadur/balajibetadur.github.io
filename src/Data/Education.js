@@ -11,7 +11,7 @@ const UserEducation = {
 			to: "2021",
 			degree: "B.E in Computer Science and Engineering",
 			logo: klsgit,
-			cgpa: "9.29 (out of 10)",
+			cgpa: "9.29",
 		},
 	],
 	certifications: [
