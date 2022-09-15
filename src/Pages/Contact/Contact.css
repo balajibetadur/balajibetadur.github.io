@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+    max-width: 100%;
 }
 
 .contact__image__div{
