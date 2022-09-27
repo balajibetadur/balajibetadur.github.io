@@ -7,11 +7,11 @@ const UserExperience = {
 	workExperience: [
 		{
 			title:
-				"Quantitaive Analyst and Backend Automation Developer",
+				"Quantitaive Analyst",
 			from: "Jan 2021",
 			to: "Present",
 			description:
-				"Developing a custom trading platform and leading a technical team of 5 individuals. Contributed to 21% increase in profits in 9 months.",
+				"Designed a Machine Learning based trading platform that generates live signals using clustering, trend analysis, time series, and LSTMs that contributed to 16% increase in profits in the last 14 months.",
 			more: [
 				'Designed a customizable end-to-end trading platform on cloud infrastructure that supports multi-account and multi-broker trading with less than 2% latency.',
 
@@ -35,7 +35,7 @@ const UserExperience = {
 			title: "Python Automation Intern",
 			from: "Sep 2020",
 			to: "Jan 2021",
-			description: "Stregthened system architecture and accelerated the execution process by automating 80% of existing tasks.",
+			description: "Stregthened system architecture and accelerated the execution process by automating more than 60% of existing tasks.",
 			company: "Blueberry Capital",
 		},
 		{
