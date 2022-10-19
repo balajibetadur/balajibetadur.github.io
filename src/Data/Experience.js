@@ -8,18 +8,10 @@ const UserExperience = {
 		{
 			title:
 				"Quantitaive Analyst",
-			from: "Jan 2021",
+			from: "May 2021",
 			to: "Present",
 			description:
 				"Designed a Machine Learning based trading platform that generates live signals using clustering, trend analysis, time series, and LSTMs that contributed to 16% increase in profits in the last 14 months.",
-			more: [
-				'Designed a customizable end-to-end trading platform on cloud infrastructure that supports multi-account and multi-broker trading with less than 2% latency.',
-
-				'Features like copy - trading, AI modules to analyze trades, trending signal generation, a backtesting engine, and 60 + business strategies make the platform unique from other service providers.',
-
-				'The automation process saved users 20+ hours per week of manual work and improved execution speed by 60 %.',
-
-				'Tech Stack: Python, AWS, Scikit - learn, Keras, Pandas, Neural Networks, Git, MongoDB, REST API, Jupyter Notebooks.'],
 			company: "Blueberry Capital",
 		},
 		{
@@ -33,45 +25,45 @@ const UserExperience = {
 		},
 		{
 			title: "Python Automation Intern",
-			from: "Sep 2020",
-			to: "Jan 2021",
+			from: "Jan 2021",
+			to: "Apr 2021",
 			description: "Stregthened system architecture and accelerated the execution process by automating more than 60% of existing tasks.",
 			company: "Blueberry Capital",
 		},
 		{
 			title: "Deep Learning Research Intern",
-			from: "Jun 2020",
+			from: "Feb 2020",
 			to: "Aug 2020",
 			description: "Worked on Creativity Index evaluation of text and images, analyzed 20 different subjectivity features of text and cosine similarity in images to generate the creativity value.",
 			company: "Indian Institute of Technology, Guwahati",
 		},
 		{
 			title: "Deep Learning research Intern",
-			from: "Nov 2020",
-			to: "Feb 2021",
+			from: "Sep 2020",
+			to: "Jan 2021",
 			description: "Developed and compared Fast Marching Method, Fast Sweeping Method, and A Star path planning algorithms for a biped robot in a static environment.",
 			company: "Indian Institute of Technology, Bhubaneshwar",
 		},
 		{
 			title: "NLP research Intern",
-			from: "Jan 2020",
-			to: "Jun 2021",
+			from: "Sep 2019",
+			to: "Feb 2020",
 			description: "Simplified Human Machine Interaction system for farmers using NLP and Cosine Similarity Matching with dynammic data retrieval.",
 			company: "KLS Gogte Institute of Technology",
 		},
 		{
 			title: "Computer Vision Intern",
-			from: "Jun 2020",
-			to: "Aug 2020",
+			from: "Jun 2019",
+			to: "Aug 2019",
 			description: "Implemented and deployed 4 machine learning models including 300+ dishes classification with nutrition extration and hotel surveillance system in 35 days.",
-			company: "Blueberry Capital",
+			company: "Naaniz Pvt Ltd",
 		},
 		{
-			title: "Machine Learning Intern",
-			from: "Apr 2020",
-			to: "May 2020",
+			title: "Frontend Development Intern",
+			from: "Mar 2019",
+			to: "Jun 2019",
 			description: "Developed a learning and hiring platform where Machine Learning modules recommend the courses and jobs using resume analytics for employees, and candidates appropriate for the job description appear to employer.",
-			company: "Blueberry Capital",
+			company: "Conscript Pvt Ltd",
 		},
 	],
 	volunteership: [
