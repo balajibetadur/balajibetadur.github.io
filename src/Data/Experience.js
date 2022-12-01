@@ -11,7 +11,7 @@ const UserExperience = {
 			from: "Jan 2021",
 			to: "Present",
 			description:
-				"Designed a Machine Learning based trading platform that generates live signals using clustering, trend analysis, time series, and LSTMs that contributed to 16% increase in profits in the last 14 months.",
+				"Designed a Machine Learning based trading platform that generates live signals using clustering, trend analysis, time series, and LSTMs that contributed to 23% increase in profits in the last 14 months.",
 			more: [
 				'Designed a customizable end-to-end trading platform on cloud infrastructure that supports multi-account and multi-broker trading with less than 2% latency.',
 
