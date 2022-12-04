@@ -75,7 +75,7 @@ const UserExperience = {
 		{
 			title: "Internshala Student Partner",
 			company: "Internshala",
-			description: "Selected as a university lead 3 times in a row. Helped 2400+ students to access excellent services provided by internshala platform. Stood 2nd among 1280 students in the ISP contest.",
+			description: "Selected as a university lead 3 times in a row. Helped 2400+ students to access excellent services provided by internshala platform. Stood 2nd among 40,400 students in the ISP contest.",
 		},
 		{
 			title: "Uplift Project Mentor",
