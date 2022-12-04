@@ -11,8 +11,16 @@ const UserExperience = {
 			from: "May 2021",
 			to: "Present",
 			description:
-				"Designed a Machine Learning based trading platform that generates live signals using clustering, trend analysis, time series, and LSTMs that contributed to 16% increase in profits in the last 14 months.",
-			company: "Blueberry Capital",
+				"Designed a Machine Learning based trading platform that generates live signals using clustering, trend analysis, time series, and LSTMs that contributed to 23% increase in profits in the last 14 months.",
+			more: [
+				'Designed a customizable end-to-end trading platform on cloud infrastructure that supports multi-account and multi-broker trading with less than 2% latency.',
+
+				'Features like copy - trading, AI modules to analyze trades, trending signal generation, a backtesting engine, and 60 + business strategies make the platform unique from other service providers.',
+
+				'The automation process saved users 20+ hours per week of manual work and improved execution speed by 60 %.',
+
+				'Tech Stack: Python, AWS, Scikit - learn, Keras, Pandas, Neural Networks, Git, MongoDB, REST API, Jupyter Notebooks.'],
+
 		},
 		{
 			title:
