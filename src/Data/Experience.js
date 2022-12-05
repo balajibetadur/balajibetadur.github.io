@@ -32,7 +32,7 @@ const UserExperience = {
 			company: "Relevel by Unacademy",
 		},
 		{
-			title: "Python Automation Intern",
+			title: "Software Developer",
 			from: "Jan 2021",
 			to: "Apr 2021",
 			description: "Stregthened system architecture and accelerated the execution process by automating more than 60% of existing tasks.",
