@@ -63,7 +63,7 @@ const UserExperience = {
 			title: "Computer Vision Intern",
 			from: "Jun 2019",
 			to: "Aug 2019",
-			description: "Implemented and deployed 4 machine learning models including 300+ dishes classification with nutrition extration and hotel surveillance system in 35 days.",
+			description: "Implemented and deployed 4 machine learning models including 300+ dishes classification with nutrition extration and hotel surveillance system in 39 days.",
 			company: "Naaniz Pvt Ltd",
 		},
 		{
