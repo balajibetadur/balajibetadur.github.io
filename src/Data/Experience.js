@@ -89,7 +89,7 @@ const UserExperience = {
 			title: "Uplift Project Mentor",
 			company: "Girlscript Foundation",
 			description:
-				"Lead a Data Science batch of 190+ students, implemented projects on Machine Learning, Computer Vision, and Deep Learning concepts. ",
+				"Lead a Data Science batch of 300+ students, implemented projects on Machine Learning, Computer Vision, and Deep Learning concepts. ",
 		},
 		{
 			title: "Student Club Co-ordinator",
