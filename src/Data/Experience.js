@@ -32,7 +32,7 @@ const UserExperience = {
 			company: "Relevel by Unacademy",
 		},
 		{
-			title: "Python Automation Intern",
+			title: "Software Developer",
 			from: "Jan 2021",
 			to: "Apr 2021",
 			description: "Stregthened system architecture and accelerated the execution process by automating more than 60% of existing tasks.",
@@ -63,7 +63,7 @@ const UserExperience = {
 			title: "Computer Vision Intern",
 			from: "Jun 2019",
 			to: "Aug 2019",
-			description: "Implemented and deployed 4 machine learning models including 300+ dishes classification with nutrition extration and hotel surveillance system in 35 days.",
+			description: "Implemented and deployed 4 machine learning models including 300+ dishes classification with nutrition extration and hotel surveillance system in 39 days.",
 			company: "Naaniz Pvt Ltd",
 		},
 		{
@@ -83,13 +83,13 @@ const UserExperience = {
 		{
 			title: "Internshala Student Partner",
 			company: "Internshala",
-			description: "Selected as a university lead 3 times in a row. Helped 2400+ students to access excellent services provided by internshala platform. Stood 2nd among 1280 students in the ISP contest.",
+			description: "Selected as a university lead 3 times in a row. Helped 2400+ students to access excellent services provided by internshala platform. Stood 2nd among 40,400 students in the ISP contest.",
 		},
 		{
 			title: "Uplift Project Mentor",
 			company: "Girlscript Foundation",
 			description:
-				"Lead a Data Science batch of 190+ students, implemented projects on Machine Learning, Computer Vision, and Deep Learning concepts. ",
+				"Lead a Data Science batch of 300+ students, implemented projects on Machine Learning, Computer Vision, and Deep Learning concepts. ",
 		},
 		{
 			title: "Student Club Co-ordinator",
