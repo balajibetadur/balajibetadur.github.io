@@ -10,6 +10,7 @@ const UserExperience = {
 				"Senior Software Developer",
 			from: "May 2021",
 			to: "Present",
+			company: 'Blueberry Capital',
 			description:
 				"Designed a Machine Learning based trading platform that generates live signals using clustering, trend analysis, time series, and LSTMs that contributed to 23% increase in profits in the last 14 months.",
 			more: [
