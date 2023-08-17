@@ -7,7 +7,7 @@ const UserExperience = {
 	workExperience: [
 		{
 			title:
-				"Quantitaive Analyst",
+				"Senior Software Developer",
 			from: "May 2021",
 			to: "Present",
 			description:
