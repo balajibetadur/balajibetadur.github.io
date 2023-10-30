@@ -21,9 +21,9 @@ function ExperienceCard({ id, title, company, description, fromDate, toDate, mor
 					<p className="experience__company">
 						@ {company}
 					</p>
-					<p className="experience__span">
+					{/* <p className="experience__span">
 						{fromDate} - {toDate}
-					</p>
+					</p> */}
 					<p className="experience__description">
 						{description}
 					</p>

@@ -12,13 +12,17 @@ const UserExperience = {
 			to: "Present",
 			company: 'Blueberry Capital',
 			description:
-				"Designed a Machine Learning based trading platform that generates live signals using clustering, trend analysis, time series, and LSTMs that contributed to 23% increase in profits in the last 14 months.",
+				
+				"Developed a low-latency trading platform in Python, achieving a remarkable tick-to-trade latency of 352 microseconds. Remarkably increasing execution speed by 99.912%, resulting in significantly improved efficiency.",
 			more: [
-				'Designed a customizable end-to-end trading platform on cloud infrastructure that supports multi-account and multi-broker trading with less than 2% latency.',
+				"Developed a low-latency trading platform in Python, achieving a remarkable tick-to-trade latency of 352 microseconds.",
+				"Designed a microservice and event-based architecture in just under 3 months, single-handedly.",
+				"Implemented advanced memory management techniques, multiprocessing, shared memory, and socket programming to optimize system performance leading to an average reduction of 0.82 points in slippage per trade.",
+				"Remarkably increased execution speed by 99.912%, resulting in significantly improved efficiency.",
+				"Integrated 14+ key features, including Execution Management System, Advanced Quoting Algorithms, Market Data Adapter, Greek Engine, Smart Order Routing, Machine Learning Algorithms for Risk Management System, High-Frequency Network monitoring, Trading Simulator, Back-Testing Engine, Multi Broker and Account switches, and Shadow Trading functionality.",
+				"Achieved substantial time savings, with each individual benefiting from an average reduction of over 9 hours of manual work per week, and boosted company profits by 34.2% over the last 21 months.",
+				"Led a team of 3 professionals, providing mentorship and guidance to accomplish project goals.",
 
-				'Features like copy - trading, AI modules to analyze trades, trending signal generation, a backtesting engine, and 60 + business strategies make the platform unique from other service providers.',
-
-				'The automation process saved users 20+ hours per week of manual work and improved execution speed by 60 %.',
 
 				'Tech Stack: Python, AWS, Scikit - learn, Keras, Pandas, Neural Networks, Git, MongoDB, REST API, Jupyter Notebooks.'],
 
