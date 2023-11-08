@@ -13,7 +13,7 @@ const UserExperience = {
 			company: 'Blueberry Capital',
 			description:
 				
-				"Developed a low-latency trading platform in Python, achieving a remarkable tick-to-trade latency of 352 microseconds. Remarkably increasing execution speed by 99.912%, resulting in significantly improved efficiency.",
+				"Developed a low-latency trading platform, achieving a remarkable tick-to-trade latency of 352 microseconds. Remarkably increasing execution speed by 99.912%, resulting in significantly improved efficiency.",
 			more: [
 				"Developed a low-latency trading platform in Python, achieving a remarkable tick-to-trade latency of 352 microseconds.",
 				"Designed a microservice and event-based architecture in just under 3 months, single-handedly.",
@@ -65,7 +65,7 @@ const UserExperience = {
 			company: "KLS Gogte Institute of Technology",
 		},
 		{
-			title: "Computer Vision Intern",
+			title: "Computer Vision Developer",
 			from: "Jun 2019",
 			to: "Aug 2019",
 			description: "Implemented and deployed 4 machine learning models including 300+ dishes classification with nutrition extration and hotel surveillance system in 39 days.",
