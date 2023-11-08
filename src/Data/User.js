@@ -6,7 +6,7 @@ const User = {
     gmail: 'mailto:balajibetadur@gmail.com',
     mobile: '+91 8892011406',
     contactPrompt: 'I am available on almost every social media. You can message me; I will reply within 24 hours. I would love to work and help regarding Machine Learning, Data Science, Computer Vision, Natural Language Processing, and Frontend development.',
-    resume: 'https://drive.google.com/file/d/1vkB6J0O2gu9lWbPgZbUCxYFu23tJr54d/view?usp=sharing'
+    resume: 'https://drive.google.com/file/d/1V_4ZjIk9QOAWS4kZJ4oTvFiWX1GbQMHc/view?usp=sharing'
 }
 
 
