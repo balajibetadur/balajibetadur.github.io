@@ -13,7 +13,7 @@ const UserExperience = {
 			company: 'Blueberry Capital',
 			description:
 				
-				"Developed a low-latency trading platform, achieving a remarkable tick-to-trade latency of 352 microseconds. Remarkably increasing execution speed by 99.912%, resulting in significantly improved efficiency.",
+				"Developed a low-latency trading platform, achieving a remarkable tick-to-trade latency of 352 microseconds. Remarkably increasing execution speed by 96.48%, resulting in significantly improved efficiency.",
 			more: [
 				"Developed a low-latency trading platform in Python, achieving a remarkable tick-to-trade latency of 352 microseconds.",
 				"Designed a microservice and event-based architecture in just under 3 months, single-handedly.",
