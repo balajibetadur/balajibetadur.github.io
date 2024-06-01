@@ -7,13 +7,13 @@ const UserExperience = {
 	workExperience: [
 		{
 			title:
-				"Senior Software Developer",
+				"Software Developer (SDE-2)",
 			from: "May 2021",
 			to: "Present",
 			company: 'Blueberry Capital',
 			description:
 				
-				"Developed a low-latency trading platform, achieving a remarkable tick-to-trade latency of 352 microseconds. Remarkably increasing execution speed by 96.48%, resulting in significantly improved efficiency.",
+				"Developed a low-latency trading platform, achieving a remarkable tick-to-trade latency of 352 microseconds. Remarkably increasing execution speed by 59.912%, resulting in significantly improved efficiency.",
 			more: [
 				"Developed a low-latency trading platform in Python, achieving a remarkable tick-to-trade latency of 352 microseconds.",
 				"Designed a microservice and event-based architecture in just under 3 months, single-handedly.",
@@ -37,7 +37,7 @@ const UserExperience = {
 			company: "Relevel by Unacademy",
 		},
 		{
-			title: "Software Developer",
+			title: "Software Developer (SDE-1)",
 			from: "Jan 2021",
 			to: "Apr 2021",
 			description: "Stregthened system architecture and accelerated the execution process by automating more than 60% of existing tasks.",
