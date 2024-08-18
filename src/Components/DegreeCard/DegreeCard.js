@@ -24,11 +24,13 @@ function DegreeCard({ data }) {
 					<p className="degreecard__degree__name">
 						{data.degree}
 					</p>
-					<div className="degreecard__degree__score">
-						<p className="degreecard__degree__cgpa">
-							CGPA: {data.cgpa}
-						</p>
-					</div>
+					{data.cgpa &&
+						<div className="degreecard__degree__score">
+							<p className="degreecard__degree__cgpa">
+								CGPA: {data.cgpa}
+							</p>
+						</div>
+					}
 				</div>
 			</div>
 		</div>
