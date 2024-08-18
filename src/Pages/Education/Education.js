@@ -22,7 +22,7 @@ function Education() {
 				<Fade bottom>
 					<div className="education__degree__title">
 						<p className="education__degree__title__text">
-							Degrees Received
+							Degrees
 						</p>
 					</div>
 				</Fade>
