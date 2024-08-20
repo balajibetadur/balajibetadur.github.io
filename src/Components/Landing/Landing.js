@@ -81,6 +81,12 @@ function Landing() {
 							I build value
 							through{" "}
 							<span className="highlight">
+								Low
+								Latency
+								Stack
+							</span>
+							,{" "}
+							<span className="highlight">
 								Data
 								Science
 							</span>
@@ -91,7 +97,7 @@ function Landing() {
 							</span>{" "}
 							and{" "}
 							<span className="highlight">
-								Frontend
+								Full Stack~
 							</span>
 							.
 						</p>
