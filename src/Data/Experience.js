@@ -7,9 +7,18 @@ const UserExperience = {
 	workExperience: [
 		{
 			title:
+				"Software Development Engineer Intern",
+			from: "May 2025",
+			to: "Aug 2025",
+			description:
+				"Designed and productionized a scalable Live Update Service replacing 3 legacy tools, with a unified CLI and hybrid caching system (1.5 TB/min throughput, 99.9% success rate), saving 200+ engineer-hours weekly and improving debugging transparency by 60%",
+			company: "Amazon Web Services (AWS EC2)",
+		},
+		{	
+			title:
 				"Software Developer (SDE-2)",
 			from: "May 2021",
-			to: "Present",
+			to: "Aug 2024",
 			company: 'Blueberry Capital',
 			description:
 				

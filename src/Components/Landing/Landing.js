@@ -81,8 +81,7 @@ function Landing() {
 							I build value
 							through{" "}
 							<span className="highlight">
-								Low
-								Latency
+								Full
 								Stack
 							</span>
 							,{" "}
@@ -97,7 +96,7 @@ function Landing() {
 							</span>{" "}
 							and{" "}
 							<span className="highlight">
-								Full Stack~
+								High Frequency Trading Systems
 							</span>
 							.
 						</p>
